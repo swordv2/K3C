@@ -7,7 +7,7 @@
 `git clone https://github.com/swordv2/K3C.git`  
 `./scripts/feeds update -a`  
 `/scripts/feeds install -a`  
-`make menuconfig` (load k3cxx.config)  
+`make menuconfig` (_load k3cxx.config_)  
 `make tools/download`  
 `make toolchain/download`  
 `make toolchain/install`  
