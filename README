@@ -1,8 +1,17 @@
+fork 自 https://github.com/paldier/K3C，修复了一些编译错误。
 
+Ubuntun 20.04 TLS 为例
+
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install git make gcc g++ libncurses-dev zlib1g-dev libssl-dev unzip python2.7 cmake
+git clone https://github.com/swordv2/K3C.git
 ./scripts/feeds update -a
 ./scripts/feeds install -a
-make menuconfig
-load k3cxx.config
+make menuconfig (load k3cxx.config)
+make tools/download
+make toolchain/download
+make toolchain/install
 
 
 This is the buildsystem for the OpenWrt Linux distribution
