@@ -1,4 +1,4 @@
-fork 自 https://github.com/paldier/K3C ，修复了一些编译错误。
+##fork 自 https://github.com/paldier/K3C ，修复了一些编译错误。
 
 Ubuntun 20.04 TLS 为例
 sudo apt-get update
